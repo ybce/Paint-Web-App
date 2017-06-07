@@ -1,0 +1,28 @@
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8" />
+      <title>
+          Web Paint!
+      </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <input id="hex" placeholder="enter hex color" />
+    <select id="lineCap">
+    <option>Butt</option>
+    <option>Round</option>
+    <option>Square</option>
+    </select>
+    <input id="lineWidth" placeholder="Enter Line Width"/>
+    <button onclick="reset();" id="reset">Clear</button>
+    
+    <input type="file" id="imageLoader" name="imageLoader"/>
+    
+  <canvas id="draw"></canvas>
+
+  <script src="app.js"></script>
+
+
+  </html>
